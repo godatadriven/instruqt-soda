@@ -17,7 +17,7 @@ tabs:
   hostname: database
   port: 5432
 difficulty: basic
-timelimit: 3600
+timelimit: 18000
 ---
 
 Soda SQL is a command line too that is already
