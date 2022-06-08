@@ -16,7 +16,8 @@ cat > /root/.local/share/code-server/User/settings.json <<EOF
 {
     "workbench.colorTheme": "Default Dark+",
     "terminal.integrated.cwd": "/home/coder/soda/",
-    "terminal.integrated.defaultProfile.linux": "zsh"
+    "terminal.integrated.defaultProfile.linux": "zsh",
+	"security.workspace.trust.enabled": false
 }
 EOF
 
