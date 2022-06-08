@@ -1,0 +1,13 @@
+version: "3"
+containers:
+- name: vscode
+  image: codercom/code-server
+  cmd: code-server workspace /root --user-data-dir /user-data --auth none --disable-telemetry
+  ports:
+  - 8080
+- name: database
+  image: sodadata/soda-adventureworks
+  ports:
+  - 5432
+  environment:
+    POSTGRES_PASSWORD: secret

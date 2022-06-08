@@ -1,0 +1,19 @@
+slug: soda-data
+id: xwfcce6wyl1o
+type: track
+title: Soda data
+teaser: Soda data workshop
+description: Soda data workshop
+icon: https://docs.soda.io/favicon.ico
+tags:
+- data
+- dataquality
+- datamanagement
+- dataengineering
+- analyticsengineering
+owner: godatadriven
+developers:
+- corzuurmond@godatadriven.com
+private: false
+published: false
+checksum: "18393075198246269074"

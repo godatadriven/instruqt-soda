@@ -1,0 +1,4 @@
+#!/bin/bash 
+set -euxo pipefail
+
+echo " # How to create a challenge setup script  " > readme.md
