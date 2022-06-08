@@ -23,17 +23,19 @@ timelimit: 18000
 
 Soda SQL is a command line too that is already
 [installed](https://docs.soda.io/soda-sql/installation.html#install) in this
-environment. Let's open a terminal to start using Soda:
+environment. 
 
-# 0. Open terminal
+Let's open a terminal to start using Soda:
+
+Open terminal
+=============
 
 Use the mouse, click `Three stacked dashes in the top left > Terminal > New Terminal`
 
-Or,
+Or, use a hot key, type `CTRL + SHIFT + BACKTICK`
 
-Use a hot key, type `CTRL + SHIFT + BACKTICK`
-
-# 1. Configure Soda
+Configure Soda
+==============
 
 First we [configure](https://docs.soda.io/soda-sql/configure.html) Soda
 
@@ -41,6 +43,8 @@ First we [configure](https://docs.soda.io/soda-sql/configure.html) Soda
 soda create postgres -d database -d postgres -u postgres -p secret
 ```
 
-This creates a `warehouse.yml`. Open it in the text editor to see what is
-inside and change `host: localhost` with `host: database`.
+This command creates the `warehouse.yml`.
+
+Open it in the text editor to see what is inside and change `host: localhost`
+with `host: database`.
 
