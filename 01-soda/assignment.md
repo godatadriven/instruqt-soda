@@ -11,6 +11,7 @@ tabs:
 - title: Code editor
   type: service
   hostname: vscode
+  path: ?folder=/home/coder/soda
   port: 8080
 - title: Database
   type: service
